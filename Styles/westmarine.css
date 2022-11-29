@@ -1,0 +1,57 @@
+body{
+    background-color: lightgray;
+    overflow: hidden;
+}
+#image{
+    display: flex;
+    justify-content: center;
+    height: 100px;
+}
+#navbar{
+    color: black;
+    border: 1px solid black;
+    width: 100%;
+}
+#navbar div nav  div ul{
+    list-style: none;
+    width: 800px;
+    margin: 0 auto;
+    padding: 0;
+}
+#navbar div nav div ul li{
+    float: left;
+    display: inline-block;
+    width: calc(100%/5);
+    text-align: center;
+}
+#navbar div nav div ul li a{
+    display: block;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    border-right: 1px solid #ccc;
+}
+#card{
+    display: flex;
+    position: fixed;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#cardimg{
+    float: right;
+}
+#cardtext{
+    float: left;
+}
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: aliceblue;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 0.5rem;
+}
