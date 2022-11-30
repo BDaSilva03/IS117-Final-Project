@@ -31,21 +31,20 @@ body{
     color: black;
     border-right: 1px solid #ccc;
 }
-#content-container{
-    margin-top: 10%;
-}
-#content{
+#card{
     display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.card-body{
+    position: fixed;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     border-style: solid;
-    box-shadow: 5px 5px 15px #00569C;
+    box-shadow: 5px 5px 15px #233F4C;
 }
-.card-img-bottom{
-    border-style: solid;
-    box-shadow: 5px 5px 15px #00569C;
+#cardimg{
+    float: right;
+}
+#cardtext{
+    float: left;
 }
 .footer {
     position: fixed;

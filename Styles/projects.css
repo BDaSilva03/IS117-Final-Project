@@ -2,10 +2,15 @@ body{
     background-color: lightgray;
     overflow: hidden;
 }
-#image{
-    display: flex;
-    justify-content: center;
-    height: 100px;
+body header h2{
+    font-family: "Lucida Handwriting", monospace;
+    font-size: 40px;
+    background-color: lightgray;
+    color: white;
+    text-shadow: -1px 1px 0 #000,
+    1px 1px 0 #000,
+    1px -1px 0 #000,
+    -1px -1px 0 #000;
 }
 #navbar{
     color: black;
@@ -31,21 +36,23 @@ body{
     color: black;
     border-right: 1px solid #ccc;
 }
-#content-container{
-    margin-top: 10%;
+#contact{
+    float: right;
+    border-right: 0;
 }
-#content{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+#demo{
+    margin: 75px auto auto;
+    width: 400px;
+    height: 200px;
 }
-.card-body{
-    border-style: solid;
-    box-shadow: 5px 5px 15px #00569C;
+#demo2{
+    margin: 75px auto auto;
+    width: 400px;
+    height: 200px;
 }
-.card-img-bottom{
-    border-style: solid;
-    box-shadow: 5px 5px 15px #00569C;
+#demo div div img{
+    width: 100%;
+    border: 1px solid #000;
 }
 .footer {
     position: fixed;
