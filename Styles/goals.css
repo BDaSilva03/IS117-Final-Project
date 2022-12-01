@@ -1,0 +1,60 @@
+body{
+    background-color: lightgray;
+    overflow: hidden;
+}
+body header h2{
+    font-family: "Lucida Handwriting", monospace;
+    font-size: 40px;
+    background-color: lightgray;
+    color: white;
+    text-shadow: -1px 1px 0 #000,
+    1px 1px 0 #000,
+    1px -1px 0 #000,
+    -1px -1px 0 #000;
+}
+#navbar{
+    color: black;
+    border: 1px solid black;
+    width: 100%;
+}
+#navbar div nav  div ul{
+    list-style: none;
+    width: 800px;
+    margin: 0 auto;
+    padding: 0;
+}
+#navbar div nav div ul li{
+    float: left;
+    display: inline-block;
+    width: calc(100%/5);
+    text-align: center;
+}
+#navbar div nav div ul li a{
+    display: block;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    border-right: 1px solid #ccc;
+}
+#contact{
+    float: right;
+    border-right: 0;
+}
+ul.a{
+    list-style-type: square;
+}
+.text-justify{
+    text-align: justify;
+    text-justify: inter-word;
+}
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: aliceblue;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 0.5rem;
+}
