@@ -1,5 +1,5 @@
 body{
-    background-color: lightgray;
+    background-color: lightgray; !important;
     overflow: hidden;
 }
 body header h2{
@@ -36,18 +36,37 @@ body header h2{
     color: black;
     border-right: 1px solid #ccc;
 }
-#contact{
-    float: right;
-    border-right: 0px;
+.container-fluid{
+    background-color: lightgray;
 }
-#demo{
-    margin: 75px auto auto;
-    width: 800px;
-    height: 400px;
+.card {
+    margin-top: -75px;
+    width: 500px;
+    height: auto;
+    background-color: white;
 }
-#demo div div img{
-    width: 100%;
-    border: 1px solid #000;
+
+.card2 {
+    height: auto;
+    background-color: #f4f5fc;
+    margin-top: 5px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    padding: 20px
+}
+
+.carousel {
+    margin-top: -10px !important
+}
+
+.card2 h5 {
+    font-weight: 700
+}
+
+.card2 p {
+    font-size: 13px;
+    margin-top: -10px;
+    color: #8b8b90
 }
 .footer {
     position: fixed;
